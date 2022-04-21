@@ -7,12 +7,12 @@ using System.Threading.Tasks;
 namespace Module12._1._5
 {
     /// <summary>
-    /// Class describe User
+    /// Class describes User
     /// </summary>
     public class User
     {
         /// <summary>
-        /// Dictionary contain Users
+        /// Dictionary contains Users
         /// </summary>
         public Dictionary<string, User> Users;
 
@@ -40,7 +40,7 @@ namespace Module12._1._5
         public bool IsPremium { get; set; }
 
         /// <summary>
-        /// Method add new user in dictionary
+        /// Method adds new user in dictionary
         /// </summary>
         /// <param name="user"> Parameter from main function </param>
         public void AddUser(User user)
@@ -72,9 +72,9 @@ namespace Module12._1._5
         }
 
         /// <summary>
-        /// Method CheckAnsw check answer to get out of cycle
+        /// Method CheckAnsw checks answer to get out of cycle
         /// </summary>
-        /// <param name="ans"> Parameter contain answer </param>
+        /// <param name="ans"> Parameter contains answer </param>
         /// <returns> Return true or false, after checking answer </returns>
         public bool CheckAnsw(string ans)
         {
@@ -83,7 +83,7 @@ namespace Module12._1._5
         }
 
         /// <summary>
-        /// Method CheckLogin check dictionary with login      
+        /// Method CheckLogin checks dictionary with login      
         /// </summary>
         /// <param name="login"> Login, that have to be checked </param>
         /// <returns> Return true or false, after checking the login </returns>
